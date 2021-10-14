@@ -534,9 +534,14 @@ if __name__ == "__main__":
     # ]
 
     test_cases = []
-    theta_list = [-np.pi*3/4, -np.pi*3/8, np.pi/3]
-    vint_list = [600, 750, 900, 1050]
-    rho_list = [10000, 43736, 87472, ]
+    # theta_list = [-np.pi*3/4, -np.pi*3/8, np.pi/3]
+    # vint_list = [600, 750, 900, 1050]
+    # rho_list = [10000, 43736, 87472, ]
+
+    theta_list = [-np.pi*3/4, -np.pi/2, -np.pi*3/8, -np.pi/4, 0, np.pi/4, np.pi/3, np.pi*3/4, np.pi]
+    vint_list = [60, 150, 300, 450, 600, 750, 900, 1050, 1145]
+    rho_list = [10000, 43736, 87472, 120000]
+
     for theta in theta_list:
         for vint in vint_list:
             for rho in rho_list:
